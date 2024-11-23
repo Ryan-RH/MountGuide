@@ -1,0 +1,10 @@
+{
+  "Author": "AndreB",
+  "Name": "Mount Guide",
+  "Punchline": "Self-Taxi using another player",
+  "Description": "!r for return, !m for mount, <flag> to travel to desired location",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "guide"
+  ]
+}
