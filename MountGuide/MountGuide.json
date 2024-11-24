@@ -1,23 +1,26 @@
-{
-    "Author": "AndreB",
-    "Name": "Mount Guide",
-    "Punchline": "Self-Taxi using another player",
-    "Description": "!r to return to player or <flag> to travel to desired location",
-    "InternalName": "MountGuide",
-    "RepoUrl": "https://github.com/Ryan-RH/MountGuide",
-    "ApplicableVersion": "any",
-    "Tags": [
-        "guide"
-    ],
-    "DalamudApiLevel": 11,
-    "IconUrl": "",
-    "ImageUrls": [
-        ""
-    ],
-    "DownloadLinkInstall": "https://github.com/Ryan-RH/MountGuide/releases/download/v0.0.0.1/latest.zip",
-    "IsHide": false,
-    "IsTestingExclusive": false,
-    "DownloadLinkTesting": "https://github.com/Ryan-RH/MountGuide/releases/download/v0.0.0.1/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Ryan-RH/MountGuide/releases/download/v0.0.0.1/latest.zip",
-    "DownloadCount": 1
-}
+[
+    {
+        "Author": "AndreB",
+        "Name": "Mount Guide",
+        "Punchline": "Self-Taxi using another player",
+        "Description": "!r to return to player or <flag> to travel to desired location",
+        "Tags": [
+            "guide"
+        ],
+
+        "InternalName": "MountGuide",
+        "AssemblyVersion": "0.0.0.1",
+        "TestingAssemblyVersion": "0.0.0.1",
+        "RepoUrl": "https://github.com/Ryan-RH/MountGuide",
+        "ApplicableVersion": "any",
+        "DalamudApiLevel": 11,
+        "TestingDalamudApiLevel": 11,
+        "IsHide": "False",
+        "IsTestingExclusive": "False",
+        "DownloadCount": 1,
+        "DownloadLinkInstall": "https://github.com/Ryan-RH/MountGuide/releases/download/v0.0.0.1/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/Ryan-RH/MountGuide/releases/download/v0.0.0.1/latest.zip",
+        "DownloadLinkTesting": "https://github.com/Ryan-RH/MountGuide/releases/download/v0.0.0.1/latest.zip",
+        "IconUrl": ""
+    }
+]
