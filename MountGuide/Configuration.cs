@@ -1,20 +1,10 @@
-using Dalamud.Configuration;
-using Dalamud.Plugin;
-using System;
+using ECommons.ChatMethods;
+using ECommons.Configuration;
 
 namespace MountGuide;
 
-[Serializable]
-public class Configuration : IPluginConfiguration
+public class Configuration : IEzConfig
 {
-    public int Version { get; set; } = 0;
-
-    public bool IsConfigWindowMovable { get; set; } = true;
-    public bool SomePropertyToBeSavedAndWithADefault { get; set; } = true;
-
-    // the below exist just to make saving less cumbersome
-    public void Save()
-    {
-        Plugin.PluginInterface.SavePluginConfig(this);
-    }
+    public Sender Guide;
+    public bool Debug = false;
 }
